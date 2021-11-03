@@ -1,0 +1,83 @@
+1) Why do we import fmt?
+2) Why do we import os?
+3) How do we parse command line arguments?
+4) How do we get a new package in Go?
+5) What is godoc?
+6) Does Go have a try-catch block? How does it do error handling?
+7) What does Panic function do? What does the recover function do?
+8) Explain how you will create a Docker container to run a Go program?
+ 9.0) Write a Go program that finds the sum of all command-line arguments that are valid 
+numbers.(Cloud IDE if interviewee does not have IDE is https://www.jdoodle.com/execute-go￾online/)
+ 9.1) Fizz Buzz test in Go. If divisible by 3 print Fizz, if divisible by 4 print Buzz.
+ 9.2) Develop a Go utility that uses a regular expression in order to match integers from 200 to 
+400.
+10) What are generics and how does Go support them?
+11) Explain about Garbage Collection in Go? How do you call the Garbage Collector manually?
+12) What is the "unsafe" Go Package?
+13) Explain a Pointer? What is dereferencing a pointer? How to get its memory address?
+14) Can you explain why we need the defer keyword? What order are multiple defers executed? 
+LIFO or FIFO
+15) Which package you need to import to get information of the Go environment? Like say the Go 
+version you are running?
+16) What is WebAssembly and can Go programs be compiled to the same?
+17) What are the complex number types offered by Go?
+18) Go does not offer While or Do While Loops. How can you use a For loop for a While and Do 
+While Loop?
+19) Explain ramge keyword in Go
+20) What is a slice in Go? How is it different from a Go array? How to create a slice using make? 
+What is the difference between capacity and length of a slice?
+21) What is a map in Go? How to iterate over the same?
+22) What is the const generator iota?
+23) Explain the usage of time package in Go? What does time.Parse() do?
+24) How will you determine the performance of piece of code by just using time package? Hint : 
+time.Now() and time.Since()
+25) What are some differences between Go and Python? Between Go and C?
+26) What is a Go Structure?
+27) Can two structures with the same fields considered identical in Go if their fields are not in 
+exactly the same order?
+28) What does the new statement in Go return?
+29) Explain Tuple Assignment
+30) What does strings.Fields() do?
+31) What does the unicode package do? What is a rune?
+32) What are some methods in the strings package? Answer : Count, HasPrefix,HasSuffix, Compare
+33) Can a switch statement in Go use Regular Expressions? What does fallthrough do?
+34) Explain BigO notation?
+35) Explain the structure of a LinkedList? How you will you implement? How would you 
+implement Stack and Queue?
+35) What are some elements in the container Go package?
+36) Describe an algorithm to generate pseudi random numbers in Go?
+37) Can a go function take another function as argument? Can it return a function? 
+How do variadic functions work?
+38) How to declare a public method in Go?
+39) Explain semantic versioning?
+40) What is an abstract syntax tree?
+41) What are type methods?
+42) What is a Go interface?
+43) Explain reflection? What are some of its disadvantages?
+44) What is Git Clone?
+45) Explain the Delve Debugger?
+46) Explain Flags Package in Go?
+47) What is the Gob Format?
+48) What is os/signal? What are some Unix Signals?
+49) What is a Go Routine? What are som ways pf starting a co-routine?
+50) What is the difference between concurrency and parallelism?
+51) Explain time.Sleep()? Why is it used?
+52) Explain sync package? Explain WaitGroup?
+53) What is a channel and how do you declare one?
+54) What are send only and receive only channels?
+55) How do you make a pipeline using Go Channels?
+56) Explain the GOMAXPROCS environment variable?
+57) Explain the select command?
+58) Explain buffered channel?
+59) What is the critical section of a program? How it can be achieved using Mutexes?
+60) What does the -race flag in Go do?
+61) What does the Context package provide?
+62) How do you profile Go code?
+63) Explain Go testing? Go code Coverage? Go Benchmarking?
+64) What is cross compilation? How do we achieve it in Go?
+65) Explain godoc?
+66) Name some methods of net/http?
+67) Explain how you would build a basic webserver and webclient using Go? How would you build
+a HTTPS webclient?
+68) Explain how you would build a Dockerfile for running a Go application?
+69) Do you know of any packages related to machine learning that are based on Go?
